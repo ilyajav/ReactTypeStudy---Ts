@@ -7,6 +7,8 @@ import {UncontrolledRating} from "./components/UncontrolledRating/UnControlledRa
 import UnControlledOnOff from "./components/UnControlledOnOff/UncontrolledOnOff";
 import OnOff from "./components/OnOff/OnOff";
 import {Select} from "./components/Select/Select";
+import {UseMemoExample} from "./components/useMemo/useMemo";
+import {HelpsToReactMemo} from "./components/React-memo/HelpsToReactMemo";
 
 //function declaration//
 
@@ -21,7 +23,7 @@ function App() {
             {/*<OnOff on={on} set={setOn} />*/}
             {/*<UnControlledOnOff />*/}
             {/*<UncontrolledAccordion titleValue={"Menu"} />*/}
-            <UncontrolledAccordion titleValue={"Users"} />
+            {/*<UncontrolledAccordion titleValue={"Users"} />*/}
             {/*<UncontrolledRating />*/}
             {/*<Rating value={1} />*/}
             {/*<Rating value={2} />*/}
@@ -37,11 +39,13 @@ function App() {
             {/*/>*/}
             {/*<Rating value={4} />*/}
             {/*<Rating value={5} />*/}
-            {/*<Select value={value} onChange={setValue} items={[*/}
-            {/*    {title: 'Valera', value: 1},*/}
-            {/*    { title: 'Artem', value: 2 },*/}
-            {/*    { title: 'Viktor', value: 3}*/}
-            {/*]} />*/}
+            <Select value={value} onChange={setValue} items={[
+                {title: 'Valera', value: 1},
+                { title: 'Artem', value: 2 },
+                { title: 'Viktor', value: 3}
+            ]} />
+            {/*<UseMemoExample />*/}
+            {/*<HelpsToReactMemo />*/}
         </div>
     );
 }
