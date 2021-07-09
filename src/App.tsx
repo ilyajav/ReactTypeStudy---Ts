@@ -10,6 +10,7 @@ import {Select} from "./components/Select/Select";
 import {UseMemoExample} from "./components/useMemo/useMemo";
 import {HelpsToReactMemo} from "./components/React-memo/HelpsToReactMemo";
 import {ExampleState} from "./components/useState/useState";
+import {ExampleEffect, ExampleSetTimeout} from "./components/useEffect/useEffect";
 
 //function declaration//
 
@@ -47,7 +48,9 @@ function App() {
             {/*]} />*/}
             {/*<UseMemoExample />*/}
             {/*<HelpsToReactMemo />*/}
-            <ExampleState />
+            {/*<ExampleState />*/}
+            {/*<ExampleEffect />*/}
+            <ExampleSetTimeout />
         </div>
     );
 }
