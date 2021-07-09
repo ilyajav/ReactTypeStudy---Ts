@@ -9,6 +9,7 @@ import OnOff from "./components/OnOff/OnOff";
 import {Select} from "./components/Select/Select";
 import {UseMemoExample} from "./components/useMemo/useMemo";
 import {HelpsToReactMemo} from "./components/React-memo/HelpsToReactMemo";
+import {ExampleState} from "./components/useState/useState";
 
 //function declaration//
 
@@ -39,13 +40,14 @@ function App() {
             {/*/>*/}
             {/*<Rating value={4} />*/}
             {/*<Rating value={5} />*/}
-            <Select value={value} onChange={setValue} items={[
-                {title: 'Valera', value: 1},
-                { title: 'Artem', value: 2 },
-                { title: 'Viktor', value: 3}
-            ]} />
+            {/*<Select value={value} onChange={setValue} items={[*/}
+            {/*    {title: 'Valera', value: 1},*/}
+            {/*    { title: 'Artem', value: 2 },*/}
+            {/*    { title: 'Viktor', value: 3}*/}
+            {/*]} />*/}
             {/*<UseMemoExample />*/}
             {/*<HelpsToReactMemo />*/}
+            <ExampleState />
         </div>
     );
 }
