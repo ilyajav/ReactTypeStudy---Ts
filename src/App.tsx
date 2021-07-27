@@ -11,6 +11,7 @@ import {UseMemoExample} from "./components/useMemo/useMemo";
 import {HelpsToReactMemo} from "./components/React-memo/HelpsToReactMemo";
 import {ExampleState} from "./components/useState/useState";
 import {ExampleEffect, ExampleSetTimeout} from "./components/useEffect/useEffect";
+import {Clock} from "./components/Clock/Clock";
 
 //function declaration//
 
@@ -50,7 +51,8 @@ function App() {
             {/*<HelpsToReactMemo />*/}
             {/*<ExampleState />*/}
             {/*<ExampleEffect />*/}
-            <ExampleSetTimeout />
+            {/*<ExampleSetTimeout />*/}
+            <Clock />
         </div>
     );
 }
